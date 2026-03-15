@@ -25,6 +25,7 @@ install.packages(c("shiny", "dplyr", "readr", "bslib"))
 **3. Launch the dashboard:**
 
 Option 1: Click the Run App button in RStudio
+
 Option 2: In the console, run:
 ``` bash
 shiny::runApp("app.R")

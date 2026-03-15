@@ -1,1 +1,29 @@
-# dsci-532-individual-assignment
+# Mars Pressure Dashboard
+
+A Shiny dashboard that visualizes atmospheric pressure on Mars over time. Users can filter data by Martian month and see the average pressure alongside a line plot of pressure versus terrestrial date.
+
+**Live App:** [Mars Pressure Dashboard](https://019ceffe-3eea-ec59-fa9e-988cbca77797.share.connect.posit.cloud)
+
+## Purpose
+
+This app allows users to explore Mars atmospheric pressure trends interactively. By selecting Martian months, users can identify variations in pressure and gain insights.
+
+## Installation
+
+**1. Clone the repository:**
+
+``` bash
+git clone https://github.com/sasha-ss/mars-pressure-dashboard.git
+```
+
+**2. Install required packages in R**
+
+``` bash
+install.packages(c("shiny", "dplyr", "readr", "bslib"))
+```
+
+**3. Launch the dashboard:**
+
+``` bash
+shiny::runApp("app.R")
+```
